@@ -18,6 +18,7 @@ a{
   display: grid;
   grid-template-columns: 30% 70%;
   flex-flow: row;
+  grid-template-rows: 1fr;
   height: 4em;
 }
 
@@ -29,8 +30,10 @@ a{
 
 .medservice_menu{
   font-size: 20px;
+  text-transform: capitalize;
   font-weight: 600;
   justify-content: flex-start;
+
   margin-left: 1em;
   width: 30vw;
 }
@@ -43,8 +46,12 @@ a{
 .contacts_link, .services_link, .about_us_link{
   font-size: 20px;
   width: 17vw;
-  justify-content: center;
   text-align: center;
+}
+
+p{
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .about_us_link, .contacts_link{
