@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  top: 0;
+  margin: 0;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+h2, h3{
+  color: #0D6070;
+  text-align: center;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+a{
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.wrapper_menu{
+  background-color: rgba(0, 151, 179, 0.52);
+  display: grid;
+  grid-template-columns: 30% 70%;
+  flex-flow: row;
+  grid-template-rows: 1fr;
+  height: 4em;
+}
+
+.links_to_sections{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: flex-end;
+}
+
+.medservice_menu{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  justify-content: flex-start;
+  margin-left: 1em;
+}
+
+.contacts_link, .services_link, .about_us_link, .medservice_menu{
+  height: 100%;
+  display: flex;
+}
+
+.contacts_link, .services_link, .about_us_link{
+  font-weight: 400;
+  font-size: 20px;
+  width: 17vw;
+  text-align: center;
+}
+
+p{
+  display: inline-block;
+  vertical-align: middle;
+  margin-block-end: 0;
+}
+
+.about_us_link, .contacts_link{
+  background-color: rgba(0, 151, 179, 0.72);
+}
+
+.burger_bar{
+  display: none;
+}
+
+.wrapper_content{
+  display: flex;
+  justify-content: center;
+}
+
+.content_part{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  height: 100%;
+  width: calc(100% / 1.522);
+}
+
+.wrapper_footer{
+  background-color: rgba(0, 151, 179, 0.52);
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 6.5em;
+  margin-bottom: 0;
+}
+
+.copyright_div{
+  text-align: center;
+  height: 1.5em;
+  font-size: 15px;
+  background-color: rgba(0, 151, 179, 0.4);
+}
+
+.footer_info{
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+}
+
+.footer_company{
+  margin-left: 1em;
+}
+
+.footer_contacts{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-right: 1em;
+}
+
+.footer_tel{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_email{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+
+}
