@@ -152,7 +152,7 @@ p{
 }
 
 .links_to_sections{
-  text-align: center;
+  justify-content: center;
   background-color: #0097B3;
   bottom: 0;
   height: 100%;
@@ -163,11 +163,10 @@ p{
   width: 100%;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  justify-content: center;
 }
 
-.links_to_sections p{
-  margin: auto;
+.links_to_sections div:first-child{
+  margin-top: 10vw;
 }
 
 .links_to_sections a{
