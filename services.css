@@ -1,0 +1,157 @@
+body{
+  color: #1b97af;
+}
+
+.pics_service{
+  width: 100%;
+  display: grid;
+  grid-template-areas: "survey ward"
+  "procedure cosmetology"
+  "diagnostics diagnostics"
+  "ophthalmology surgery"
+  "phisiotherapy chem"
+  "otolaryngology otolaryngology";
+  justify-content: center;
+}
+
+.survey{
+  grid-area: survey;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/survey.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 1em;
+}
+
+.pics_service p{
+  margin: auto;
+  text-align: center;
+}
+
+.ward{
+  margin: 1em;
+  grid-area: ward;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/ward.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.procedure{
+  grid-area: procedure;
+  margin: 1em;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/procedure.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.cosmetology{
+  grid-area: cosmetology;
+  margin: 1em;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/сosmetology.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.diagnostics{
+  grid-area: diagnostics;
+  margin: 1em;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/diagnostics.jpg);
+  height: 400px;
+  width: 730px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.ophthalmology{
+  margin: 1em;
+  grid-area: ophthalmology;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/ophthalmology.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.surgery{
+  margin: 1em;
+  grid-area: surgery;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/surgery.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.phisiotherapy{
+  margin: 1em;
+  grid-area: phisiotherapy;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/phisiotherapy.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.chem{
+  margin: 1em;
+  grid-area: chem;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/chem.jpg);
+  height: 220px;
+  width: 320px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.otolaryngology{
+  margin: 1em;
+  grid-area: otolaryngology;
+  border-radius: 30px;
+  display: flex;
+  background-image: url(pics/sp/otolaryngology.jpg);
+  height: 400px;
+  width: 730px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.img_price{
+  display: flex;
+  align-self: center;
+  background-image: url(pics/sp/price.jpg);
+  font-size: 30px;
+  height: 300px;
+  width: 400px;
+  margin-bottom: 1em;
+  border: 2px solid rgba(0, 0, 0, 0.47);
+}
+
+.img_price p{
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+}

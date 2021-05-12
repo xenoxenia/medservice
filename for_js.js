@@ -23,3 +23,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   slides_text[slideIndex-1].style.display = "inline-block";
 }
+
+function func(){
+      document.querySelector('.links_to_sections').classList.toggle('open');
+      document.querySelector('.burger_bar').classList.toggle('open');
+}

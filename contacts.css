@@ -1,0 +1,70 @@
+.mail{
+  grid-area: mail;
+  text-align: right;
+  margin-right: 2em;
+}
+
+iframe{
+  margin: 0;
+}
+
+.tel_mail{
+  display: grid;
+  grid-template-areas: "tel mail";
+  font-size: 20px;
+  font-weight: 700;
+}
+.tel{
+  grid-area: tel;
+  text-align: left;
+  margin-left: 2em;
+}
+
+.tel p{
+  margin-block-start: 0em;
+}
+
+.mail p{
+  margin-block-start: 0em;
+}
+
+.first_h4, .second_h4, .third_h4{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.first, .second, .third{
+  display: block;
+  margin: 1em;
+}
+
+.first_hours_and_details{
+  display: grid;
+  grid-template-areas: "first_hours first_details";
+}
+
+.second_hours_and_details{
+  display: grid;
+  grid-template-areas: "second_hours second_details";
+}
+
+.third_hours_and_details{
+  display: grid;
+  grid-template-areas: "third_hours third_details";
+}
+
+.second_hours, .first_hours, .third_hours{
+  text-align: left;
+  margin-left: 5.1em;
+}
+
+.second_details, .first_details, .third_details{
+  text-align: right;
+  margin-right: 5.1em;
+}
+
+.second_frame, .first_frame, .third_frame{
+  display: flex;
+  justify-content: center;
+}
