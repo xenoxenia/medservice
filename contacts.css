@@ -103,10 +103,17 @@ iframe{
 }
 
 @media (max-width: 640px) {
+  .first, .second, .third{
+    margin: 0;
+  }
+
+  .first_hours_and_details, .second_hours_and_details, .third_hours_and_details{
+    font-size: 12px;
+  }
 
   iframe{
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
   }
 
   .first_h4, .second_h4, .third_h4{
@@ -118,6 +125,50 @@ iframe{
   }
 
   .tel_mail{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 426px) {
+
+  .content_part{
+    padding: 0;
+  }
+
+  .first_hours_and_details, .second_hours_and_details, .third_hours_and_details{
     font-size: 10px;
   }
+
+  .tel{
+    margin-left: 0;
+  }
+  .mail{
+    margin-right: 0;
+  }
+
+  iframe{
+    width: 250px;
+    height: 200px;
+  }
+
+  .first_h4, .second_h4, .third_h4{
+    font-size: 13px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  .tel_mail{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 374px) {
+
+  iframe{
+    width: 220px;
+    height: 200px;
+  }
+
 }
