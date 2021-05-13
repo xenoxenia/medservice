@@ -62,6 +62,11 @@ iframe{
   text-align: right;
 }
 
+.frames a{
+  text-decoration: none;
+  color: #0D6070;
+}
+
 .second_frame, .first_frame, .third_frame{
   display: flex;
   justify-content: center;
