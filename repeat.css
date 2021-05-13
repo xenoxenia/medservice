@@ -169,12 +169,6 @@ p{
   margin-top: 10vw;
 }
 
-.links_to_sections a{
-  display: grid;
-  grid: subgrid;
-  margin: 0 0 10% 0;
-}
-
 .links_to_sections a:hover{
   color: #ffffff;
 }
