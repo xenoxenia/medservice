@@ -12,7 +12,7 @@ body{
   "phisiotherapy chem"
   "otolaryngology otolaryngology";
   justify-content: center;
-  grid-gap: 1em;
+  grid-gap: 3em;
 }
 
 .survey{
@@ -20,8 +20,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/survey.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
   margin: auto;
@@ -38,8 +38,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/ward.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -50,8 +50,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/procedure.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -62,8 +62,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/сosmetology.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -75,7 +75,7 @@ body{
   display: flex;
   background-image: url(pics/sp/diagnostics.jpg);
   height: 400px;
-  width: 720px;
+  width: 690px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -86,8 +86,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/ophthalmology.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -98,8 +98,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/surgery.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -110,8 +110,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/phisiotherapy.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -122,8 +122,8 @@ body{
   border-radius: 30px;
   display: flex;
   background-image: url(pics/sp/chem.jpg);
-  height: 220px;
-  width: 330px;
+  height: 210px;
+  width: 320px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -135,7 +135,7 @@ body{
   display: flex;
   background-image: url(pics/sp/otolaryngology.jpg);
   height: 400px;
-  width: 720px;
+  width: 690px;
   font-size: 30px;
   font-weight: 500;
 }
@@ -319,75 +319,75 @@ body{
 
   .survey{
     grid-area: survey;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
   }
 
   .ward{
     grid-area: ward;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
 
   .procedure{
     grid-area: procedure;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
   .cosmetology{
     grid-area: cosmetology;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
 }
   .diagnostics{
     grid-area: diagnostics;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
   .ophthalmology{
     grid-area: ophthalmology;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
   .surgery{
     grid-area: surgery;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
 
   .phisiotherapy{
     grid-area: phisiotherapy;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
 
   .chem{
     grid-area: chem;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
 
   .otolaryngology{
     grid-area: otolaryngology;
-    height: 220px;
-    width: 330px;
+    height: 210px;
+    width: 320px;
     font-size: 25px;
     font-weight: 500;
   }
